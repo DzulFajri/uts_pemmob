@@ -59,14 +59,8 @@ Aplikasi ini dirancang untuk memberikan panduan yang jelas tentang pencegahan Co
 ---
 
 ## Flow Diagram - Cara Kerja Aplikasi Emergency Response Covid-19
-graph TD;
-    A[Halaman Awal] --> B[Informasi Terkait Covid-19]
-    A --> C[Panduan Pencegahan Covid-19]
-    A --> D[Help & Support]
-    D --> E[Nomor Telepon Darurat]
-    D --> F[FAQ Terkait Covid-19]
-    B --> G[Tindakan Pencegahan dan Info Umum]
-    C --> H[Langkah Pencegahan Seperti Masker, Jarak, dan lain-lain]
+![WhatsApp Image 2024-11-15 at 17 41 58](https://github.com/user-attachments/assets/2d258222-7b92-4bed-b4cf-eaa9c37189c5)
+
 
 
 **Aplikasi ini bertujuan untuk:**
