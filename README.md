@@ -1,52 +1,68 @@
-# Aplikasi Emergency Response Covid-19
+# Aplikasi Destinasi Wisata Indonesia
 
-Aplikasi Emergency Response Covid-19 dirancang untuk memberikan informasi penting, bantuan darurat, dan pembaruan terkini mengenai situasi Covid-19 di Indonesia. Aplikasi ini bertujuan untuk membantu masyarakat dalam menghadapi pandemi dengan menyediakan data statistik Covid-19 secara real-time, informasi pencegahan, serta akses mudah ke layanan darurat.
+## Introduction
+Indonesia memiliki banyak destinasi wisata menarik yang mencakup keindahan alam, kekayaan budaya, situs bersejarah, dan wisata modern. Namun, wisatawan sering mengalami kesulitan untuk mendapatkan informasi yang jelas, terperinci, dan mudah diakses mengenai destinasi-destinasi tersebut. 
 
-## Tujuan
-Memudahkan masyarakat dalam mendapatkan informasi terkait Covid-19 dan mengakses layanan darurat dengan cepat.
+Aplikasi ini hadir sebagai solusi yang memberikan informasi terstruktur mengenai destinasi wisata di Indonesia, dengan fokus khusus pada daerah **Bali** dan **Yogyakarta**.
 
-## Lingkup
-Aplikasi ini dapat digunakan oleh siapa saja tanpa batasan akses, dengan fitur yang lengkap untuk memberikan informasi tentang Covid-19 dan mendukung respons darurat.
+Aplikasi ini dirancang untuk membantu wisatawan dalam menemukan dan memahami berbagai tempat wisata di Indonesia. Informasi yang disediakan mencakup deskripsi, gambar, jam operasional, harga tiket, dan lokasi yang dapat diakses melalui tautan peta. Selain itu, aplikasi ini juga memungkinkan wisatawan untuk memberikan ulasan dan rating pada destinasi yang telah dikunjungi, memberikan pengalaman yang lebih interaktif dan bermanfaat bagi pengguna lainnya.
 
-## Kriteria
-Pengguna dapat dengan mudah mengakses informasi terkait Covid-19, panduan pencegahan, serta layanan darurat.
+Dengan antarmuka yang intuitif dan informasi yang akurat, aplikasi ini bertujuan untuk memudahkan eksplorasi wisatawan, mendukung pengembangan pariwisata Indonesia, dan memberikan pengalaman wisata yang nyaman serta informatif.
+
+## Objective
+- Memudahkan wisatawan menemukan informasi lengkap tentang destinasi wisata di Indonesia, termasuk deskripsi, gambar, jam operasional, harga tiket, dan lokasi.
+- Memberikan pengalaman pengguna yang interaktif melalui fitur ulasan dan rating.
+
+## Scope
+- Aplikasi dapat digunakan oleh siapa saja tanpa batasan.
+- Informasi yang tersedia mencakup destinasi wisata di **Bali** dan **Yogyakarta**.
 
 ## Business Requirement
 
 ### Business Requirement Definition
 
-- **Jenis Layanan**: Layanan Informasi dan Bantuan Darurat
-- **Definisi**: Aplikasi ini menyediakan informasi penting mengenai Covid-19, termasuk statistik kasus terkini, panduan pencegahan, dan akses ke layanan darurat. Pengguna dapat mengakses informasi tentang Covid-19 secara real-time, mendapatkan panduan tentang cara melindungi diri, serta menghubungi layanan darurat yang tersedia.
-- **Abstrak**: Aplikasi ini memberikan informasi terkini mengenai Covid-19, seperti jumlah kasus positif, sembuh, dan meninggal, serta panduan pencegahan dan cara menghubungi layanan darurat. Dengan fitur yang mudah diakses dan antarmuka yang ramah pengguna, aplikasi ini bertujuan untuk membantu masyarakat dalam merespons pandemi Covid-19 dengan cepat dan tepat.
+| **Produk**         | **Keterangan**                                                                                             |
+|--------------------|-----------------------------------------------------------------------------------------------------------|
+| Jenis Layanan      | Layanan Informasi Destinasi Wisata                                                                         |
+| Definisi           | Aplikasi mobile yang memberikan informasi lengkap dan terstruktur mengenai destinasi wisata di Indonesia, khususnya Bali dan Yogyakarta. Informasi ini mencakup deskripsi, gambar, jam operasional, harga tiket, dan lokasi. |
+| Abstrak (Narasi)   | Aplikasi ini memudahkan wisatawan dalam menemukan dan mengeksplorasi tempat wisata melalui daftar destinasi yang dilengkapi dengan gambar, deskripsi, jam operasional, harga tiket, dan lokasi. Aplikasi ini menawarkan pengalaman eksplorasi yang nyaman dan informatif bagi wisatawan domestik maupun internasional. |
 
-## Fitur Utama
+## Features
 
-1. **Statistik Covid-19**: Menampilkan data terkini mengenai jumlah kasus positif, sembuh, dan meninggal, serta statistik lainnya yang relevan.
-2. **Panduan Pencegahan Covid-19**: Memberikan informasi terkait cara pencegahan, seperti penggunaan masker, menjaga jarak, dan cuci tangan.
-3. **Layanan Darurat**: Menyediakan informasi kontak rumah sakit, layanan darurat, dan fasilitas kesehatan yang dapat dihubungi langsung melalui aplikasi.
-4. **Pembaruan Real-Time**: Aplikasi terintegrasi dengan API untuk memperbarui data Covid-19 secara real-time.
-5. **Bantuan & Dukungan**: Menyediakan halaman FAQ yang berisi informasi umum terkait Covid-19 serta panduan bagaimana menghubungi layanan darurat.
+### Technical Features
 
-## Keunggulan
+| No  | Fitur                      | Deskripsi                                                                                                                                           |
+|-----|----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1   | Destinasi Wisata            | Pengguna dapat memilih destinasi wisata yang tersedia di Bali dan Yogyakarta serta mendapatkan informasi terkait.                                      |
+| 2   | Navigasi Peta               | Pengguna dapat melihat lokasi destinasi wisata pada peta melalui URL yang disediakan.                                                                |
+| 3   | Pemesanan Tiket             | Pengguna dapat memesan tiket untuk destinasi wisata langsung melalui tautan pemesanan yang tersedia.                                                  |
+| 4   | Ulasan Pengguna             | Pengguna dapat memberikan ulasan dan rating terhadap destinasi yang telah mereka kunjungi.                                                            |
 
-- **Informasi Real-Time**: Memperoleh data terkini tentang Covid-19 yang diperbarui secara otomatis.
-- **Akses Darurat Cepat**: Pengguna dapat menghubungi layanan darurat seperti rumah sakit atau klinik terdekat dengan mudah.
-- **Desain Intuitif**: Aplikasi memiliki antarmuka yang mudah dipahami dan digunakan oleh semua kalangan masyarakat.
+### Strategic Features
 
-## Proses Alur Kerja
+| No  | Fitur                      | Deskripsi                                                                                                                                           |
+|-----|----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1   | Efektivitas                 | Aplikasi ini menyediakan informasi wisata secara terstruktur, membantu wisatawan yang memerlukan akses cepat dan lengkap ke destinasi wisata di Indonesia. |
+| 2   | Kelebihan                   | Antarmuka yang sederhana dan intuitif membuat aplikasi ini mudah digunakan oleh semua kalangan.                                                      |
 
-1. **Statistik Covid-19**: Pengguna dapat melihat data terkini tentang jumlah kasus, pasien sembuh, dan meninggal.
-2. **Panduan Pencegahan**: Pengguna dapat mengakses informasi tentang cara melindungi diri dari Covid-19, seperti memakai masker dan menjaga jarak.
-3. **Layanan Darurat**: Pengguna dapat melihat kontak rumah sakit atau fasilitas kesehatan yang dapat dihubungi dalam keadaan darurat.
-4. **Bantuan Real-Time**: Data statistik diambil dari API yang memperbarui secara otomatis untuk memberikan informasi yang akurat dan terkini.
+## Functional & Specification
 
-## Spesifikasi Teknis
+### Process Flows
+1. **Pengguna Memilih Destinasi**: Pengguna memilih destinasi wisata berdasarkan lokasi (Bali atau Yogyakarta).
+2. **Pengguna Melihat Informasi**: Informasi mengenai destinasi, termasuk deskripsi, jam operasional, dan harga tiket, akan ditampilkan.
+3. **Pengguna Membuat Pemesanan**: Pengguna dapat melakukan pemesanan tiket melalui tautan yang tersedia jika destinasi memerlukan tiket.
+4. **Pengguna Memberikan Ulasan**: Setelah mengunjungi destinasi, pengguna dapat memberikan ulasan dan rating.
+
+### Specification
 
 - **Framework**: Flutter
-- **API Real-Time**: Aplikasi ini terintegrasi dengan API yang memberikan data terkini tentang statistik Covid-19.
-- **Panggilan Darurat**: Fungsi untuk menghubungi layanan darurat melalui telepon atau WhatsApp.
-- **Keamanan Data**: Data pengguna dilindungi dengan enkripsi yang sesuai dan standar keamanan yang tinggi.
+- **Assets Management**: Penggunaan Pubspec Assets untuk gambar dan data wisata.
+- **Page Structure**: Penambahan halaman seperti homepage dan destination page untuk menampilkan daftar destinasi dan informasi detail destinasi.
+- **Data Selection**: Data destinasi dipilih menggunakan class `destinationPage` untuk ditampilkan di halaman destinasi.
 
 ---
 
-Aplikasi Emergency Response Covid-19 ini diharapkan dapat menjadi sumber informasi yang handal dan cepat bagi masyarakat untuk merespons situasi pandemi, sekaligus memberikan akses mudah ke layanan darurat yang dibutuhkan.
+**Aplikasi ini bertujuan untuk:**
+- Memberikan informasi lengkap dan terstruktur tentang destinasi wisata.
+- Mendukung pengembangan sektor pariwisata Indonesia.
+- Mempermudah eksplorasi wisatawan dengan menyediakan antarmuka yang mudah digunakan dan fitur yang bermanfaat.
