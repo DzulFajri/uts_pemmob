@@ -58,6 +58,19 @@ Aplikasi ini dirancang untuk memberikan panduan yang jelas tentang pencegahan Co
 
 ---
 
+## Flow Diagram - Cara Kerja Aplikasi Emergency Response Covid-19
+
+```mermaid
+graph TD;
+    A[Halaman Awal] --> B[Informasi Terkait Covid-19]
+    A --> C[Panduan Pencegahan Covid-19]
+    A --> D[Help & Support]
+    D --> E[Nomor Telepon Darurat]
+    D --> F[FAQ Terkait Covid-19]
+    B --> G[Tindakan Pencegahan dan Info Umum]
+    C --> H[Langkah Pencegahan Seperti Masker, Jarak, dll.]
+
+
 **Aplikasi ini bertujuan untuk:**
 - Menyediakan informasi penting terkait pencegahan dan penanganan Covid-19.
 - Memberikan akses cepat ke layanan darurat dan nomor kontak penting.
